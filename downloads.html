@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Cypress Command — Downloads</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Fraunces:wght@600&display=swap" rel="stylesheet" />
+<style>
+  :root { --bg:#F5F0E8; --ink:#0B1220; --terra:#A44E12; --cta:#E88C3E; --card:#fff; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { font-family:Inter,system-ui,sans-serif; background:var(--bg); color:var(--ink); padding:40px 20px; }
+  .wrap { max-width:720px; margin:0 auto; }
+  h1 { font-family:Fraunces,Georgia,serif; font-size:28px; margin-bottom:8px; }
+  p { color:#5A5F6A; margin-bottom:28px; line-height:1.5; }
+  .card { background:var(--card); border-radius:16px; padding:20px 22px; margin-bottom:14px;
+    box-shadow:0 8px 24px rgba(11,18,32,.06); border:1px solid rgba(11,18,32,.08); }
+  .card h2 { font-size:16px; margin-bottom:6px; }
+  .card p { font-size:13px; margin-bottom:14px; }
+  a.btn { display:inline-block; background:var(--cta); color:#0B1220; font-weight:700; font-size:13px;
+    padding:10px 16px; border-radius:10px; text-decoration:none; margin-right:8px; margin-bottom:8px; }
+  a.btn.ghost { background:transparent; border:1px solid rgba(11,18,32,.15); }
+  a.btn:hover { filter:brightness(1.05); }
+  .logo { width:28px; height:26px; vertical-align:middle; margin-right:8px; }
+  .links a { color:var(--terra); font-size:13px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1><svg class="logo" viewBox="0 0 168 160" style="display:inline-block"><path fill="#A44E12" d="M32 0H136C153.673 0 168 14.327 168 32V58H135V35Q135 30 130 30H37Q32 30 32 35V125Q32 130 37 130H130Q135 130 135 125V96H168V128C168 145.673 153.673 160 136 160H32C14.327 160 0 145.673 0 128V32C0 14.327 14.327 0 32 0Z"/><rect x="61" y="56" width="48" height="48" fill="#C96A08"/></svg>Cypress Command downloads</h1>
+  <p>Design System V1 Final + operations program prototype. Click any button to download or open.</p>
+
+  <div class="card">
+    <h2>1. Open the live program copy</h2>
+    <p>Interactive Command Center — Bone / Dark toggle, site plan, suites, work orders.</p>
+    <a class="btn" href="/">Open app →</a>
+    <a class="btn ghost" href="https://cypress-command-platform.vercel.app/" target="_blank" rel="noopener">Actual platform</a>
+  </div>
+
+  <div class="card">
+    <h2>2. Design System V1 Final (zip)</h2>
+    <p>Boards, palette, logos, mockups, live screenshots. ~5 MB.</p>
+    <a class="btn" href="/downloads/Cypress-Command-Design-System-V1-Final.zip" download>Download design system zip</a>
+  </div>
+
+  <div class="card">
+    <h2>3. App prototype (zip)</h2>
+    <p>HTML app + screenshots. Open index.html locally.</p>
+    <a class="btn" href="/downloads/Cypress-Command-App-Prototype.zip" download>Download app zip</a>
+  </div>
+
+  <div class="card">
+    <h2>4. Individual design boards</h2>
+    <p class="links">
+      <a href="/design-system/01-design-system-DARK-near-black.jpg" download>Dark board</a> ·
+      <a href="/design-system/02-design-system-LIGHT-bone.jpg" download>Light board</a> ·
+      <a href="/design-system/03-color-palette-master.jpg" download>Palette</a> ·
+      <a href="/design-system/06-app-mockup-LIGHT-command-center.jpg" download>Light mockup</a> ·
+      <a href="/design-system/07-app-mockup-DARK-property-view.jpg" download>Dark mockup</a>
+    </p>
+  </div>
+
+  <p style="font-size:12px;margin-top:24px">GitHub: <a href="https://github.com/OrangeOnyx/cypress-command-ops-prototype" style="color:var(--terra)">OrangeOnyx/cypress-command-ops-prototype</a></p>
+</div>
+</body>
+</html>
